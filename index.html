@@ -1,195 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nithilesh's Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <link rel="icon" type="image/jpeg" href="./images/favicon.jpg">
-</head>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="icon" type="image/jpeg" href="./images/favicon.jpg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
 
-<body>
+  <body>
     <div class="body" id="body">
-        <div class="navbar">
-            <div class="name">Nithilesh's Portfolio</div>
-            <div class="navitems">
-                <ul class="show">
-                    <a href="#body">
-                        <li class="active">Home</li>
-                    </a>
-                    <a href="#spage">
-                        <li>Skills</li>
-                    </a>
-                    <a href="#stdy">
-                        <li>Study</li>
-                    </a>
-                    <a href="#contact">
-                        <li>Contact</li>
-                    </a>
-                </ul>
-            </div>
-            <ion-icon name="reorder-three" class="menubar"></ion-icon>
-            <ion-icon name="close" class="close"></ion-icon>
+      <div class="navbar">
+        <div class="name">Nithilesh's Portfolio</div>
+        <div class="navitems">
+          <ul class="show">
+            <a href="#body">
+              <li class="active">Home</li>
+            </a>
+            <a href="#spage">
+              <li>Skills</li>
+            </a>
+            <a href="#stdy">
+              <li>Study</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
+          </ul>
         </div>
-        <section class="home">
-            <div class="left">
-                <h2>
-                    <div>Hello guys , This is <span class="detail-1">Nithilesh</span></div>
-                    <div class="detail">And I am a <span id="element"></span></div>
-                    <a href="https://www.linkedin.com/in/bejagam-nithilesh" target="_blank"><ion-icon
-                            name="logo-linkedin"></ion-icon></a>
-                    <a href="https://github.com/Nithilesh2" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
-                </h2>
+        <ion-icon name="reorder-three" class="menubar"></ion-icon>
+        <ion-icon name="close" class="close"></ion-icon>
+      </div>
+      <section class="home">
+        <div class="left">
+          <h2>
+            <div>
+              Hello guys , This is <span class="detail-1">Nithilesh</span>
             </div>
-            <div class="right">
-                <img src="./images/work.png">
-            </div>
-        </section>
-        <hr class="hr1">
+            <div class="detail">And I am a <span id="element"></span></div>
+            <a
+              href="https://www.linkedin.com/in/bejagam-nithilesh/"
+              target="_blank"
+              ><ion-icon name="logo-linkedin"></ion-icon
+            ></a>
+            <a href="https://github.com/Nithilesh2" target="_blank"
+              ><ion-icon name="logo-github"></ion-icon
+            ></a>
+          </h2>
+        </div>
+        <div class="right">
+          <img src="./images/work.png" />
+        </div>
+      </section>
+      <hr class="hr1" />
 
-
+      <div data-aos="fade-up" data-aos-offset="50">
         <section class="skills_page" id="spage">
+          <h1 class="sec-2_skills">Skills</h1>
 
-            <h1 class="sec-2_skills">Skills</h1>
-
-            <div class="skills">
-                <div class="py">
-                    <img src="./images/python.png" class="skills_s">
-                    <div class="python">Python</div>
-                </div>
-
-                <div class="ja">
-                    <img src="./images/java.png" class="skills_s">
-                    <div class="java">Java</div>
-                </div>
-
-                <div class="ht">
-                    <img src="./images/html.png" class="skills_s">
-                    <div class="html">Html</div>
-                </div>
-
-                <div class="cs">
-                    <img src="./images/css.png" class="skills_s">
-                    <div class="css">CSS</div>
-                </div>
-
-                <div class="js">
-                    <img src="./images/js.png" class="skills_s">
-                    <div class="javascript">Java Script</div>
-                </div>
-
-                <div class="clanguage">
-                    <img src="./images/c.png" class="skills_s">
-                    <div class="c">C</div>
-                </div>
-
-                <div class="cplusplus">
-                    <img src="./images/cpp.png" class="skills_s">
-                    <div class="cpp">CPP</div>
-                </div>
-
+          <div class="skills">
+            <div data-aos="fade-up">
+              <div class="py">
+                <img src="./images/python.png" class="skills_s" />
+                <div class="python">Python</div>
+              </div>
             </div>
+
+            <div data-aos="fade-up">
+              <div class="ja">
+                <img src="./images/java.png" class="skills_s" />
+                <div class="java">Java</div>
+              </div>
+            </div>
+            <div data-aos="fade-up">
+              <div class="ht">
+                <img src="./images/html.png" class="skills_s" />
+                <div class="html">Html</div>
+              </div>
+            </div>
+            <div data-aos="fade-up">
+              <div class="cs">
+                <img src="./images/css.png" class="skills_s" />
+                <div class="css">CSS</div>
+              </div>
+            </div>
+            <div data-aos="fade-up">
+              <div class="js">
+                <img src="./images/js.png" class="skills_s" />
+                <div class="javascript">Java Script</div>
+              </div>
+            </div>
+            <div data-aos="fade-up">
+              <div class="clanguage">
+                <img src="./images/c.png" class="skills_s" />
+                <div class="c">C</div>
+              </div>
+            </div>
+            <div data-aos="fade-up">
+              <div class="cplusplus">
+                <img src="./images/cpp.png" class="skills_s" />
+                <div class="cpp">CPP</div>
+              </div>
+            </div>
+          </div>
         </section>
+      </div>
 
-        <hr class="hr2">
-
+      <hr class="hr2" />
+      <div data-aos="fade-up">
         <section class="study" id="stdy">
-            <h1 class="sec-2_skills">Study</h1>
-
-            <hr class="hr3">
+          <h1 class="sec-2_skills">Study</h1>
+          <div data-aos="fade-up">
+            <hr class="hr3" />
             <div class="school">
-                <section>
-                    <h2 class="scl_name">Siddhartha High School (2008 - 2018)</h2>
-                </section>
-                <section>
-                    <h2 class="scl_class">1st class - 10th class</h2>
-                </section>
-                <section>
-                    <h2 class="scl_address">Srinivas Nagar, Siddipet, Telangana 502103.</h2>
-                </section>
+              <section>
+                <h2 class="scl_name">Siddhartha High School</h2>
+              </section>
+              <section>
+                <h2 class="scl_class">1st class - 10th class</h2>
+              </section>
+              <section>
+                <h2 class="scl_address">Siddipet.</h2>
+              </section>
             </div>
-
-            <hr class="hr3">
+          </div>
+          <div data-aos="fade-up">
+            <hr class="hr3" />
             <div class="inter">
-                <section>
-                    <h2 class="inter_name">Impulse Junior College (2019-2020)</h2>
-                </section>
-                <section>
-                    <h2 class="inter_class">Intermediate MPC</h2>
-                </section>
-                <section>
-                    <h2 class="inter_address">Pragathi Nagar, Hyderabad, Telangana 500090.</h2>
-                </section>
+              <section>
+                <h2 class="inter_name">Impulse Junior College (2019-2020)</h2>
+              </section>
+              <section>
+                <h2 class="inter_class">Intermediate MPC</h2>
+              </section>
+              <section>
+                <h2 class="inter_address">
+                  Pragathi Nagar, Hyderabad, Telangana 500090.
+                </h2>
+              </section>
             </div>
-
-            <hr class="hr3">
+          </div>
+          <div data-aos="fade-up">
+            <hr class="hr3" />
             <div class="btech">
-                <section>
-                    <h2 class="btech_name">Institute of Aeronautical (2021 - 2025)<section>Engineering College</section>
-                    </h2>
-                </section>
-                <section>
-                    <h2 class="btech_class">B-Tech Computer Science Engineering</h2>
-                </section>
-                <section>
-                    <h2 class="btech_address">Dundigal Road, Dundigal, Hyderabad, Telangana 500043</h2>
-                </section>
+              <section>
+                <h2 class="btech_name">
+                  Institute of Aeronautical Technology (2021 - 2025)
+                  <section>Engineering College</section>
+                </h2>
+              </section>
+              <section>
+                <h2 class="btech_class">B-Tech CSE</h2>
+              </section>
+              <section>
+                <h2 class="btech_address">
+                  Dundigal, Hyderabad, Telangana 500043
+                </h2>
+              </section>
             </div>
+          </div>
         </section>
+      </div>
 
-        <hr class="hr2">
-        <section class="contact_me" id="contact">
-            <div class="conmain">
-                <div class="con">
-                    <h1 class="section_contactme">Contact Me</h1>
+      <hr class="hr2" />
 
-                    <div class="apps">
-                        <a href="https://www.linkedin.com/in/bejagam-nithilesh" target="_blank"><ion-icon
-                                name="logo-linkedin" class="in"></ion-icon></a>
-                        <a href="https://github.com/Nithilesh2" target="_blank"><ion-icon name="logo-github"
-                                class="github"></ion-icon></a>
-                        <a href="https://www.instagram.com/_nithilesh_guptha_/" target="_blank"><ion-icon
-                                name="logo-instagram" class="ig"></ion-icon></a>
-                        <a href="https://discord.com/users/BEJAGAM#1770" target="_blank"><ion-icon name="logo-discord"
-                                class="discord"></ion-icon></a>
-                        <a href="mailto:21951a05c7@iare.ac.in" target="_blank"><ion-icon name="mail-outline" class="mail"></ion-icon></a>
-                    </div>
+      <div data-aos="fade-up">
+      <section class="contact_me" id="contact">
+        <div class="conmain">
+          <div class="con">
+            <h1 class="section_contactme">Contact Me</h1>
 
-                    <div class="details">
-                        <div class="entername">
-                            <label class="enter_name">Type your name </label><br>
-                            <input type="name" placeholder="Enter your name">
-                        </div><br>
-
-                        <div class="entermail">
-                            <label class="enter_mail">Enter your Mail</label><br>
-                            <input type="email" placeholder="Enter your Mail">
-                        </div>
-                    </div><br><br>
-
-                    <label class="any_doubts">Any Doubts More </label><br>
-                    <textarea cols="50" rows="10" class="txtarea"></textarea>
-                </div>
-                <button type="button">Submit</button>
+            <div class="apps">
+              <a
+                href="https://www.linkedin.com/in/bejagam-nithilesh"
+                target="_blank"
+                ><ion-icon name="logo-linkedin" class="in"></ion-icon
+              ></a>
+              <a href="https://github.com/Nithilesh2" target="_blank"
+                ><ion-icon name="logo-github" class="github"></ion-icon
+              ></a>
+              <a
+                href="https://www.instagram.com/_nithilesh_guptha_/"
+                target="_blank"
+                ><ion-icon name="logo-instagram" class="ig"></ion-icon
+              ></a>
+              <a href="https://discord.com/users/BEJAGAM#1770" target="_blank"
+                ><ion-icon name="logo-discord" class="discord"></ion-icon
+              ></a>
+              <a href="mailto:sunnybnithilesh@gmail.com" target="_blank"
+                ><ion-icon name="mail-outline" class="mail"></ion-icon
+              ></a>
             </div>
 
-        </section>
+            <div class="details">
+              <div class="entername">
+                <label class="enter_name">Type your name </label><br />
+                <input type="name" placeholder="Enter your name" />
+              </div>
+              <br />
+
+              <div class="entermail">
+                <label class="enter_mail">Enter your Mail</label><br />
+                <input type="email" placeholder="Enter your Mail" />
+              </div>
+            </div>
+            <br /><br />
+
+            <label class="any_doubts">Any Doubts More </label><br />
+            <textarea cols="50" rows="10" class="txtarea"></textarea>
+          </div>
+          <button type="button">Submit</button>
+        </div>
+      </section>
     </div>
-
-
-
-
+    </div>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ['<b>Designer</b> .', 'Web Developer.'],
-            typeSpeed: 50,
-        });
+      AOS.init({
+        delay: 100,
+        offset: 150,
+      });
     </script>
-</body>
-<script src="./style.js" defer></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["<b>Designer</b> .", "Web Developer."],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+  <script src="./style.js" defer></script>
 </html>
